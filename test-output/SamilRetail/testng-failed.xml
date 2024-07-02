@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SamilRetail]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="raji@800"/>
+  <parameter name="browsername" value="chrome"/>
+  <parameter name="userid" value="9384359814"/>
+  <test thread-count="5" name="SamilLogin(failed)">
+    <classes>
+      <class name="Hytutorial.SamilLogin">
+        <methods>
+          <include name="LaunchingBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="LoginWithValidCredetionals" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Hytutorial.SamilLogin -->
+    </classes>
+  </test> <!-- SamilLogin(failed) -->
+</suite> <!-- Failed suite [SamilRetail] -->
